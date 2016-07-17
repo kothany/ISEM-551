@@ -1,0 +1,67 @@
+<style type="text/css">
+body{
+	background:rgba(0, 188, 212, 0.77) !important;
+}
+.borderclass{
+   border: 1px solid black;
+}
+ul li{
+    list-style:none;
+    float:left;
+      
+    font-weight:bold;    
+}
+
+a{
+    text-decoration: none;
+}
+.menubar{
+    width:100%;
+    height: 20px;
+    border-bottom:1px solid black;
+    margin-bottom:2px;
+    
+}
+.footer{
+    width:100%;
+    height: 50px;
+    border-top:1px solid black;
+    margin-bottom:2px;
+    
+}
+.header{ 
+ display: inline-block;
+ font-weight:bold;
+ width:100px;
+ 
+}
+.logo{
+display: inline-block;
+ width:100px;
+ height:100px;
+ background-image:url("../images/libraryLogo.jpg");
+ background-size: 100px 100px;
+ background-repeat: no-repeat;
+}
+.booksTable{
+   width:100%;
+   margin-top:3px;
+   margin-bottom:3px;
+   border:1px solid black;
+}
+.booksTableRow{
+	border:2px solid black;		
+}
+th,td{
+ text-align:center;
+ border:1px solid black;		
+}
+.event_title{
+font-weight:bold;
+font-style:italic;
+border-top:1px solid black;
+color:blue;
+}
+
+.navbar-nav > li > a {padding-top:10px !important; padding-bottom:10px !important;}
+.navbar {min-height:40px !important}
